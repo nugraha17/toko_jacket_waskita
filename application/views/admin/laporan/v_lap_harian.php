@@ -11,7 +11,6 @@
             </div>
             <!-- /.col -->
         </div>
-
         <!-- Table row -->
         <div class="row">
             <div class="col-12 table-responsive">
@@ -35,7 +34,6 @@
                             $tot_harga = $value->harga * $value->qty;
                             $grand_total = $grand_total + $tot_harga;
                         ?>
-
                             <tr>
                                 <td><?= $no++ ?></td>
                                 <td><?= $value->no_order ?></td>
@@ -44,9 +42,7 @@
                                 <td><?= $value->qty ?></td>
                                 <td>Rp.<?= number_format($tot_harga, 0) ?></td>
                             </tr>
-
                         <?php } ?>
-
                     </tbody>
                 </table>
                 <h1>Grand Total = Rp. <?= number_format($grand_total, 0) ?></h1>
