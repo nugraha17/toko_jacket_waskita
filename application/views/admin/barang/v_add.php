@@ -25,8 +25,7 @@
                 <!-- text input -->
                 <div class="form-group">
                     <label>Nama Barang</label>
-                    <input name="nama_barang" class="form-control" placeholder="nama Barang" value="<?=
-                                                                                                    set_value('nama_barang') ?>">
+                    <input name="nama_barang" class="form-control" placeholder="nama Barang" value="<?= set_value('nama_barang') ?>">
                 </div>
             </div>
             
@@ -34,8 +33,7 @@
                     <!-- text input -->
                     <div class="form-group">
                         <label>Harga</label>
-                        <input name="harga" class="form-control" placeholder="Harga Barang" value="<?=
-                                                                                                    set_value('harga') ?>">
+                        <input name="harga" class="form-control" placeholder="Harga Barang" value="<?= set_value('harga') ?>">
                     </div>
                 </div>
                 <div class="col-sm-6">
