@@ -42,11 +42,10 @@
                             <td class="text-center"><?= $value->username ?></td>
                             <td class="text-center"><?= $value->password ?></td>
                             <td class="text-center"><?php
-                                                    if ($value->level_user == 1) {
-                                                        echo '<span class="badge bg-primary">Admin</span>';
-                                                    } else {
-                                                        echo '<span class="badge bg-success">User</span>';
-                                                    }
+                                                    if ($value->level_user == 1) 
+                                                    {echo '<span class="badge bg-primary">Admin</span>';} 
+                                                    else 
+                                                    {echo '<span class="badge bg-success">User</span>';}
                                                     ?></td>
                             <td class="text-center">
                                 <button class="btn btn-warning btn-sm" data-toggle="modal" data-target="#edit<?= $value->id_user ?>"><i class="fas fa-edit"></i></button>
@@ -152,15 +151,10 @@
                     <div class="form-group">
                         <label>Level</label>
                         <select name="level_user" class="form-control" required>
-                            <option value="1" <?php if ($value->level_user == 1) {
-                                                    echo 'selected';
-                                                } ?>>Admin</option>
-                            <option value="2" <?php if ($value->level_user == 2) {
-                                                    echo 'selected';
-                                                } ?>>User</option>
+                            <option value="1" <?php if ($value->level_user == 1) {echo 'selected'; } ?>>Admin</option>
+                            <option value="2" <?php if ($value->level_user == 2) {echo 'selected';} ?>>User</option>
                         </select>
                     </div>
-
                 </div>
                 <div class="modal-footer justify-content-between">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

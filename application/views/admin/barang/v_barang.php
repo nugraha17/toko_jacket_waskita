@@ -23,7 +23,6 @@
 
             ?>
 
-
             <table class="table table-bordered" id="example1">
                 <thead>
                     <tr class="text-center">

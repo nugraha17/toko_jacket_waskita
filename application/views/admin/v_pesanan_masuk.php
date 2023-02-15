@@ -8,7 +8,6 @@
         echo $this->session->flashdata('pesan');
         echo '</h5> </div>';
     }
-
     ?>
     <div class="card card-primary card-outline card-outline-tabs">
         <div class="card-header p-0 border-bottom-0">
@@ -28,7 +27,6 @@
             </ul>
         </div>
         <div class="card-body">
-
             <!-- Pesanan Masuk -->
             <div class="tab-content" id="custom-tabs-four-tabContent">
                 <div class="tab-pane fade show active" id="custom-tabs-four-home" role="tabpanel" aria-labelledby="custom-tabs-four-home-tab">
@@ -85,14 +83,11 @@
                                         <button class="btn btn-sm btn-success btn-flat" data-toggle="modal" data-target="#cek<?= $value->id_transaksi ?>">Cek Bukti Bayar</button>
                                         <a href="<?= base_url('admin/proses/' . $value->id_transaksi) ?>" class="btn btn-sm btn-flat btn-primary">Proses</a>
                                     <?php } ?>
-
-
                                 </td>
                             </tr>
                         <?php } ?>
                     </table>
                 </div>
-
                 <!-- proses -->
                 <div class="tab-pane fade" id="custom-tabs-four-profile" role="tabpanel" aria-labelledby="custom-tabs-four-profile-tab">
                     <table class="table">
@@ -154,7 +149,6 @@
                         <?php } ?>
                     </table>
                 </div>
-
                 <!-- dikirim -->
                 <div class="tab-pane fade" id="custom-tabs-four-messages" role="tabpanel" aria-labelledby="custom-tabs-four-messages-tab">
                     <table class="table">

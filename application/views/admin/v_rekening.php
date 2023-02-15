@@ -8,12 +8,8 @@
             </div>
             <!-- /.card-tools -->
         </div>
-
-        
         <!-- /.card-header -->
         <div class="card-body">
-
-
             <table class="table table-bordered" id="example1">
                 <thead>
                     <tr class="text-center">
@@ -59,7 +55,6 @@
                 <?php
                 echo form_open('rekening/add');
                 ?>
-
                 <div class="form-group">
                     <label>Nama bank</label>
                     <input type="text" name="nama_bank" class="form-control" placeholder="Nama bank" required>
@@ -74,17 +69,14 @@
                     <label>atas_nama</label>
                     <input type="text" name="atas_nama" class="form-control" placeholder="Atas Nama" required>
                 </div>
-
             </div>
             <div class="modal-footer justify-content-between">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 <button type="submit" class="btn btn-primary">Save</button>
             </div>
-
             <?php
             echo form_close();
             ?>
-
         </div>
         <!-- /.modal-content -->
     </div>
@@ -103,28 +95,21 @@
                     </button>
                 </div>
                 <div class="modal-body">
-
                     <?php
                     echo form_open('rekening/edit_rekening/' . $value->id_rekening);
                     ?>
-
                     <div class="form-group">
                         <label>Nama Bank</label>
                         <input type="text" name="nama_bank" value=" <?= $value->nama_bank ?>" class="form-control" placeholder="Nama Bank" required>
                     </div>
-
                     <div class="form-group">
                         <label>No Rekening</label>
                         <input type="text" name="no_rek" value=" <?= $value->no_rek ?>" class="form-control" placeholder="No Rekening" required>
                     </div>
-
                     <div class="form-group">
                         <label>Atas Nama</label>
                         <input type="text" name="atas_nama" value=" <?= $value->atas_nama ?>" class="form-control" placeholder="Atas Nama" required>
                     </div>
-
-                    
-
                 </div>
                 <div class="modal-footer justify-content-between">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

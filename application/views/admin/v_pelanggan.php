@@ -6,8 +6,6 @@
         </div>
         <!-- /.card-header -->
         <div class="card-body">
-
-
             <table class="table table-bordered" id="example1">
                 <thead>
                     <tr class="text-center">
@@ -52,9 +50,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-
                     <h5>Apakah anda yakin ingin menghapus data ini !!</h5>
-
                 </div>
                 <div class="modal-footer justify-content-between">
                     <a href="<?= base_url('pelanggan/delete/' . $value->id_pelanggan)?>" class="btn btn-danger">Delete</a>

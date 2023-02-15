@@ -16,7 +16,6 @@
                 echo $this->session->flashdata('pesan');
                 echo '</h5> </div>';
             }
-
             
             echo form_open('admin/setting'); ?>
 
@@ -62,7 +61,6 @@
         </div>
     </div>
 </div>
-
 <script>
     $(document).ready(function() {
         $.ajax({
