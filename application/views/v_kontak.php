@@ -52,7 +52,7 @@
 </head>
 
 <body>
-    <main style="margin-top: 100px;">
+    <main style="margin-top: 5px; margin-bottom:250px; ">
         <div class="container">
             <a target="_blank" href="https://wa.me/6281226931073">
                 <div class="callout callout-danger">

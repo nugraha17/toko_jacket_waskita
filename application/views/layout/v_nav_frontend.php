@@ -17,7 +17,6 @@
                      <a href="<?= base_url() ?>" class="nav-link">Home</a>
                  </li>
 
-
                  <li class="nav-item">
                      <a href="<?= base_url('home/cara_beli') ?>" class="nav-link">Cara Beli</a>
                  </li>
@@ -25,6 +24,7 @@
                  <li class="nav-item">
                      <a href="<?= base_url('home/kontak') ?>" class="nav-link">Kontak</a>
                  </li>
+ 
              </ul>
 
          </div>
