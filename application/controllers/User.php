@@ -10,7 +10,6 @@ class User extends CI_Controller
             $this->load->model('m_pelanggan');
     }
 
-
     public function index($offset = 0)
     {
         $data = array(
@@ -58,6 +57,4 @@ class User extends CI_Controller
         redirect('user');
     }
 }
-
-
 ?>

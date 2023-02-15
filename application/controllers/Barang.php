@@ -77,7 +77,6 @@ class Barang extends CI_Controller
     public function edit($id_barang = NULL)
     {
 
-
         $this->form_validation->set_rules('nama_barang', 'Nama Barang', 'required', array('required' => '%s Harus Di Isi !!'));
         $this->form_validation->set_rules('harga', 'Harga', 'required', array('required' => '%s Harus Di Isi !!'));
         $this->form_validation->set_rules('total_stok', 'Stok', 'required', array('required' => '%s Harus Di Isi !!'));
