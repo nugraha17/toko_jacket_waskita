@@ -24,7 +24,7 @@
                  <li class="nav-item">
                      <a href="<?= base_url('home/kontak') ?>" class="nav-link">Kontak</a>
                  </li>
- 
+    
              </ul>
 
          </div>
@@ -35,10 +35,9 @@
              <li class="nav-item">
                  <?php if ($this->session->userdata('email') == "") { ?>
 
-                     <a class="nav-link" href="<?= base_url('pelanggan/login') ?>">
+                    <a class="nav-link" href="<?= base_url('pelanggan/login') ?>">
                          <span class="brand-text font-weight-light">Login/Register</span>
-                     </a>
-
+                    </a>
                  <?php } else { ?>
 
                      <a class="nav-link" data-toggle="dropdown" href="#">
@@ -46,10 +45,10 @@
                      </a>
 
                      <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-                         <!-- <div class="dropdown-divider"></div>
+                         <div class="dropdown-divider"></div>
                          <a href="<?= base_url('pelanggan/akun') ?>" class="dropdown-item">
                              <i class="fas fa-shopping-cart mr-2"></i> Akun saya
-                         </a> -->
+                         </a>
                          <div class="dropdown-divider"></div>
                          <a href="<?= base_url('pesanan_saya') ?>" class="dropdown-item">
                              <i class="fas fa-shopping-cart mr-2"></i> Pesanan saya
@@ -83,7 +82,6 @@
                             foreach ($keranjang as $key => $value) {
                                 $barang = $this->m_home->detail_barang($value['product_id']);
                             ?>
-
                              <a href="#" class="dropdown-item">
                                  <div class="media">
                                      <img src="<?= base_url('assets/gambar/' . $barang->gambar) ?>" alt="User Avatar" class="img-size-50 mr-3">

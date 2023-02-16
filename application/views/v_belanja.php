@@ -1,4 +1,5 @@
-<div class="card card-solid">
+<div class="card card-solid"  style=" margin-bottom:500px;" >
+<!-- <div class="row" style="margin-top: 100px; margin-bottom:400px; "> -->
     <div class="card-body pb-0">
         <div class="row">
             <div class="col-sm-12">
@@ -18,7 +19,7 @@
                 <?php echo form_open('belanja/update'); ?>
 
                 <table cellpadding="6" cellspacing="1" style="width:100%">
-
+                
                     <tr>
                         <th width="85px">QTY</th>
                         <th width="85px">Ukuran</th>
@@ -53,11 +54,9 @@
                             </td>
                             <td>
                                 <?php echo $items['ukuran']  ?>
-
                             </td>
                             <td>
                                 <?php echo $items['name']; ?>
-
                             </td>
                             <td style="text-align:right">Rp. <?php echo $this->cart->format_number($items['price']); ?></td>
                             <td style="text-align:right">Rp. <?php echo $this->cart->format_number($items['subtotal']); ?></td>

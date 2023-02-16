@@ -52,9 +52,8 @@
                             <div class="row">
                                 <div class="col-12 text-center">
                                 <a href="<?= base_url('home/detail_barang/' . $value->id_barang) ?>" >
-                                <img src="<?= base_url('assets/gambar/' . $value->gambar) ?>" width="300px" height="300px">
-                                        </a>
-                                    
+                                    <img src="<?= base_url('assets/gambar/' . $value->gambar) ?>" width="300px" height="300px">
+                                </a>
                                 </div>
                             </div>
                         </div>

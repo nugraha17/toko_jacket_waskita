@@ -1,4 +1,4 @@
-<div class="row" style="margin-top: 100px; margin-bottom:400px; ">
+<div class="row" style="margin-top: 100px; margin-bottom:350px; ">
     <div class="col-sm-4"></div>
     <div class="col-sm-4">
         <div class="register-box">
@@ -45,12 +45,20 @@
             
                     <div class="row">
                         <div class="col-8">
-                        <a href="<?= base_url('pelanggan/register') ?>" class="text-center">Belum Punya Akun ?</a>
+                            <a href="<?= base_url('pelanggan/register') ?>" class="text-center">Belum Punya Akun ?</a>
                         </div>
                         <div class="col-4">
                             <button type="submit" class="btn btn-primary btn-block">Login</button>
                         </div>
                         
+                    <!-- </div>
+                    <div class='text-right' style="margin-bottom:5px;">
+                    </div> -->
+
+                    <div style="margin-top:20px;" class='col text-right' >
+
+                            <a href="<?= base_url('auth/login_user')?>">Login Admin</a>
+ 
                     </div>
                     <?php echo form_close() ?>
                     
