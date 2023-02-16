@@ -1,2 +1,2 @@
 # toko_jacket_waskita
-welcame halo
+welcame ,hello
