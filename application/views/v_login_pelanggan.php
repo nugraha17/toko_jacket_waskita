@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row" style="margin-top: 100px; margin-bottom:400px; ">
     <div class="col-sm-4"></div>
     <div class="col-sm-4">
         <div class="register-box">
@@ -61,16 +61,3 @@
     </div>
     <div class="col-sm-4"></div>
 </div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>

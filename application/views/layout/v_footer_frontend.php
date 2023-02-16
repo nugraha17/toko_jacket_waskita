@@ -16,8 +16,8 @@
                     </div>
                 </div>
                 <div class="col-sm-6 text-right">
-                    <div class="footer-widget">
-                      <a href="<?= base_url('home/kontak') ?> ">Kontak :</a>
+                    <div class="footer-widget" href="<?= base_url('home/kontak') ?>">KONTAK :
+                      <!-- <a href="<?= base_url('home/kontak') ?> ">Kontak :</a> -->
                       <a href="https://facebook.com" class="fa fa-facebook"></a>
                       <a href="https://www.instagram.com/konkritemarket/" class="fa fa-instagram"></a>
                       <a href="https://wa.me/6281226931073" class="fa fa-Whatsapp"></a>

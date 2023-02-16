@@ -52,11 +52,12 @@
 </head>
 
 <body>
-    <main style="margin-top: 5px; margin-bottom:250px; ">
+    <main style="margin-top: 5px; margin-bottom:500px; ">
+
         <div class="container">
             <a target="_blank" href="https://wa.me/6281226931073">
                 <div class="callout callout-danger">
-                    Whatsapp &nbsp;&nbsp;&nbsp;: <b>081226931073</b>
+                    Whatsapp &nbsp;&nbsp;: <b>081226931073</b>
                 </div>
             </a>
             <a target="_blank" href="https://mail.google.com/mail/u/0/#inbox?compose=new">
@@ -88,11 +89,6 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/js/mdb.min.js"></script>
-    <!-- Initializations -->
-    <script type="text/javascript">
-        // Animations initialization
-        new WOW().init();
-    </script>
 </body>
 
 </html>
