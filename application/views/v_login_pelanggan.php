@@ -51,15 +51,11 @@
                             <button type="submit" class="btn btn-primary btn-block">Login</button>
                         </div>
                         
-                    <!-- </div>
-                    <div class='text-right' style="margin-bottom:5px;">
-                    </div> -->
-
-                    <div style="margin-top:20px;" class='col text-right' >
+<!-- 
+                    <div style="margin-top:30px;" class='col text-right' >
 
                             <a href="<?= base_url('auth/login_user')?>">Login Admin</a>
- 
-                    </div>
+                    </div> -->
                     <?php echo form_close() ?>
                     
                 </div>
@@ -67,5 +63,4 @@
             </div><!-- /.card -->
         </div>
     </div>
-    <div class="col-sm-4"></div>
 </div>

@@ -36,11 +36,7 @@ class Rajaongkir extends CI_Controller
         if ($err) {
             echo "cURL Error #:" . $err;
         } else {
-            //echo $response;
             $array_response = json_decode($response, true);
-            //echo '<pre>';
-            //print_r($array_response['rajaongkir']['results']);
-            //echo '</pre>';
             $data_provinsi = $array_response['rajaongkir']['results'];
             echo "<option value=''>--Pilih Provinsi--</option>";
             foreach ($data_provinsi as $key => $value) {
@@ -78,11 +74,7 @@ class Rajaongkir extends CI_Controller
         if ($err) {
             echo "cURL Error #:" . $err;
         } else {
-            //echo $response;
             $array_response = json_decode($response, true);
-            //echo '<pre>';
-            //print_r($array_response['rajaongkir']['results']);
-            //echo '</pre>';
             $data_kota = $array_response['rajaongkir']['results'];
             echo "<option value=''>--Pilih Kota--</option>";
             foreach ($data_kota as $key => $value) {
@@ -137,11 +129,7 @@ class Rajaongkir extends CI_Controller
         if ($err) {
             echo "cURL Error #:" . $err;
         } else {
-            //echo $response;
             $array_response = json_decode($response, true);
-            //echo '<pre>';
-            //print_r($array_response['rajaongkir']['results'][0]['costs']);
-            //echo '</pre>';
             $data_paket = $array_response['rajaongkir']['results'][0]['costs'];
             echo "<option value=''>--Pilih Paket--</option>";
             foreach ($data_paket as $key => $value) {

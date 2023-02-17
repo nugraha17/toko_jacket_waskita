@@ -93,7 +93,7 @@ class Pelanggan extends CI_Controller
         );
         $this->load->view('layout/v_wrapper_backend',$data, FALSE);
     }
-
+//hapus pelanggan
     public function delete ($id_pelanggan = NULL)
     {
         $data=array('id_pelanggan' => $id_pelanggan);
@@ -101,7 +101,7 @@ class Pelanggan extends CI_Controller
         $this->session->set_flashdata('pesan','Data Berhasil di Hapus !');
         redirect('pelanggan');
     }
-
+//edit pelanggan
     public function edit($id_pelanggan= NULL)
     {
         $data = array(
