@@ -50,6 +50,7 @@ class User extends CI_Controller
     }
 
     public function delete ($id_user = NULL)
+    
     {
         $data=array('id_user' => $id_user);
         $this->m_user->delete($data);

@@ -78,21 +78,6 @@ CREATE TABLE `tbl_gambar` (
 --
 
 INSERT INTO `tbl_gambar` (`id_gambar`, `id_barang`, `ket`, `gambar`) VALUES
-(6, 2, 'dwd', 'cinos.jpg'),
-(7, 2, 'dwd', 'WhatsApp_Image_2021-12-11_at_14_19_44.jpeg'),
-(15, 7, 'kuri', 'jumat.jpg'),
-(16, 8, 'gambar topi 1', 'evrest.jpg'),
-(19, 9, 'Kaos Polos Coklat 1', 'kaos_coklat_2.PNG'),
-(20, 9, 'Kaos Polos Coklat 2', 'kaos_coklat_3.PNG'),
-(25, 6, 'Kaos Polos Maroon 1', 'kaos_maroon_2.PNG'),
-(26, 6, 'Kaos Polos maroon 2', 'kaos_maroon_3.PNG'),
-(27, 6, 'Kaos Polos maroon 3', 'kaos_maroon_4.PNG'),
-(28, 5, 'Kaos Polos Putih 1', 'kaos_putih_2.PNG'),
-(29, 5, 'Kaos Polos Putih 2', 'kaos_putih_3.PNG'),
-(30, 5, 'Kaos Polos Putih 3', 'kaos_putih_4.PNG'),
-(31, 1, 'Jaket Hitam 1', 'hodi.jpg'),
-(32, 1, 'Jaket Hitam 2', 'jaket_hijau.PNG'),
-(33, 6, 'jono', 'topi.png'),
 (34, 14, 'ini adalah keterangan', 'spesifikasi-printer-canon-pixma-mp237.jpg'),
 (35, 13, 'dari saping kanan', 'DSC_8884.JPG'),
 (36, 21, 'keterangan barang', 'kindpng_1340776.png'),

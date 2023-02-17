@@ -18,12 +18,17 @@
     }
 
     .my-float {
+        margin-top: 16px;
         margin-top: 10px;
     }
 </style>
-
+<!-- 
 <body>
     <main style="margin-top: 5px; margin-bottom:190px; ">
+ -->
+
+<body style = "row">
+    <main style="margin-bottom: 140px">
         <div class="clear"></div>
         <div id="wrapcontainer">
             <div id="container">
