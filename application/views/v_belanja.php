@@ -21,6 +21,7 @@
                 <table cellpadding="6" cellspacing="1" style="width:100%">
                 
                     <tr>
+                        <th width= "85px">Gambar</th>
                         <th width="85px">QTY</th>
                         <th width="85px">Ukuran</th>
                         <th>Nama Barang</th>
@@ -42,6 +43,8 @@
 
                         <tr>
                             <td>
+                            <div class="product-image-thumb active"><img src="<?= base_url('assets/gambar/' . $barang->gambar) ?>" alt="Product Image"></div>
+                            <td>
                                 <?php echo form_input(array(
                                     'name'      => $i . '[qty]',
                                     'value'     => $items['qty'],
@@ -52,6 +55,7 @@
                                     'class'     => 'form-control'
                                 )); ?>
                             </td>
+                           
                             <td>
                                 <?php echo $items['ukuran']  ?>
                             </td>

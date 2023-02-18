@@ -8,9 +8,14 @@
         <div class="row">
               <div class="col-sm-6">
                     <div class="footer-about">
+                        <div class="footer-logo">
+                            <a href="#"><img src="img/footer-logo.png" alt=""></a>
+                        </div>
                         <strong>Konkrite Market</strong>
+                        <a href="#"><img src="img/payment.png" alt=""></a>
                     </div>
-              </div>
+                </div>
+
               <div class="col-sm-6 text-right">
                     <div class="footer-widget" href="<?= base_url('home/kontak') ?>">
                       <a href="<?= base_url('home/kontak') ?> ">Kontak :</a>
