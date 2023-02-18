@@ -21,8 +21,7 @@
          <!-- Sidebar Menu -->
          <nav class="mt-2">
              <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-                 <!-- Add icons to the links using the .nav-icon class
-               with font-awesome or any other icon font library -->
+                 <!-- Tambahkan ikon ke tautan menggunakan kelas .nav-icon dengan font-awesome atau perpustakaan font ikon lainnya -->
 
                  <li class="nav-item">
                      <a href="<?= base_url('admin') ?>" class="nav-link <?php if ($this->uri->segment(1) == 'admin' and $this->uri->segment(2) == "") {
@@ -34,18 +33,6 @@
                          </p>
                      </a>
                  </li>
-
-                 <!-- <li class="nav-item">
-                     <a href="<?= base_url('kategori') ?>" class="nav-link <?php if ($this->uri->segment(1) == 'kategori') {
-                                                                                echo "active";
-                                                                            } ?>">
-                         <i class="nav-icon fas fa-list"></i>
-                         <p>
-                             Kategori
-                         </p>
-                     </a>
-                 </li> -->
-
                  <li class="nav-item">
                      <a href="<?= base_url('barang') ?>" class="nav-link <?php if ($this->uri->segment(1) == 'barang') {
                                                                                 echo "active";
@@ -114,9 +101,7 @@
                  </li>
 
                  <li class="nav-item">
-                     <a href="<?= base_url('user') ?>" class="nav-link <?php if ($this->uri->segment(1) == 'user') {
-                                                                            echo "active";
-                                                                        } ?>">
+                     <a href="<?= base_url('user') ?>" class="nav-link <?php if ($this->uri->segment(1) == 'user') {echo "active";} ?>">
                          <i class="nav-icon fas fa-user"></i>
                          <p>
                              User
@@ -125,24 +110,20 @@
                      <ul class="nav nav-treeview">
                          <li class="nav-item">
                              <a <a href="<?= base_url('user') ?>" class="nav-link <?php if ($this->uri->segment(1) == 'user') {
-                                                                          
-                                                                        } ?>">
+
+                              } ?>">
                          <i class="nav-icon fas fa-user"></i>
                                  <p>Admin</p>
                              </a>
                          </li>
                          <li class="nav-item">
-                             <a <a href="<?= base_url('pelanggan') ?>" class="nav-link <?php if ($this->uri->segment(1) == 'pelanggan') {
-                                                                           
-                                                                        } ?>">
+                             <a <a href="<?= base_url('pelanggan') ?>" class="nav-link <?php if ($this->uri->segment(1) == 'pelanggan') {} ?>">
                          <i class="nav-icon fas fa-user"></i>
                                  <p>Pelanggan</p>
                              </a>
                          </li>
                      </ul>
                  </li>
-                 
-
                  <li class="nav-item">
                      <a href="<?= base_url('auth/logout_user') ?>" class="nav-link">
                          <i class="nav-icon fas fa-sign"></i>
