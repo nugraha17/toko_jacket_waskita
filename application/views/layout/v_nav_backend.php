@@ -24,19 +24,16 @@
                  <!-- Tambahkan ikon ke tautan menggunakan kelas .nav-icon dengan font-awesome atau perpustakaan font ikon lainnya -->
 
                  <li class="nav-item">
-                     <a href="<?= base_url('admin') ?>" class="nav-link <?php if ($this->uri->segment(1) == 'admin' and $this->uri->segment(2) == "") {
-                                                                            echo "active";
-                                                                        } ?>">
+                     <a href="<?= base_url('admin') ?>" class="nav-link <?php if ($this->uri->segment(1) == 'admin' and $this->uri->segment(2) == "") {echo "active"; } ?>">
                          <i class="nav-icon fas fa-tachometer-alt"></i>
                          <p>
                              Dashboard
                          </p>
                      </a>
                  </li>
+
                  <li class="nav-item">
-                     <a href="<?= base_url('barang') ?>" class="nav-link <?php if ($this->uri->segment(1) == 'barang') {
-                                                                                echo "active";
-                                                                            } ?>">
+                     <a href="<?= base_url('barang') ?>" class="nav-link <?php if ($this->uri->segment(1) == 'barang') {echo "active";} ?>">
                          <i class="nav-icon fas fa-book"></i>
                          <p>
                              Barang
@@ -45,9 +42,7 @@
                  </li>
 
                  <li class="nav-item">
-                     <a href="<?= base_url('gambarbarang') ?>" class="nav-link <?php if ($this->uri->segment(1) == 'gambarbarang') {
-                                                                                    echo "active";
-                                                                                } ?>">
+                     <a href="<?= base_url('gambarbarang') ?>" class="nav-link <?php if ($this->uri->segment(1) == 'gambarbarang') { echo "active";} ?>">
                          <i class="nav-icon fas fa-image"></i>
                          <p>
                              Gambar Barang
@@ -56,9 +51,7 @@
                  </li>
 
                  <li class="nav-item">
-                     <a href="<?= base_url('admin/pesanan_masuk') ?>" class="nav-link <?php if ($this->uri->segment(2) == 'pesanan_masuk' and $this->uri->segment(1) == 'admin') {
-                                                                                            echo "active";
-                                                                                        } ?>">
+                     <a href="<?= base_url('admin/pesanan_masuk') ?>" class="nav-link <?php if ($this->uri->segment(2) == 'pesanan_masuk' and $this->uri->segment(1) == 'admin') {echo "active";} ?>">
                          <i class="nav-icon fas fa-download"></i>
                          <p>
                              Pesanan Masuk
@@ -67,9 +60,7 @@
                  </li>
 
                  <li class="nav-item">
-                     <a href="<?= base_url('laporan') ?>" class="nav-link <?php if ($this->uri->segment(1) == 'laporan') {
-                                                                                echo "active";
-                                                                            } ?>">
+                     <a href="<?= base_url('laporan') ?>" class="nav-link <?php if ($this->uri->segment(1) == 'laporan') {echo "active"; } ?>">
                          <i class="nav-icon fa fa-file"></i>
                          <p>
                              Laporan
@@ -88,13 +79,17 @@
                          <li class="nav-item">
                              <a <a href="<?= base_url('admin/setting') ?>" class="nav-link">
                          <i class="nav-icon fas fa-user"></i>
-                                 <p>Lokasi</p>
+                                 <p>
+                                    Lokasi
+                                </p>
                              </a>
                          </li>
                          <li class="nav-item">
                              <a <a href="<?= base_url('rekening') ?>" class="nav-link">
                          <i class="nav-icon fas fa-user"></i>
-                                 <p>Rekening</p>
+                                 <p>
+                                    Rekening
+                                </p>
                              </a>
                          </li>
                      </ul>
@@ -107,23 +102,30 @@
                              User
                          </p>
                      </a>
+                     
                      <ul class="nav nav-treeview">
                          <li class="nav-item">
                              <a <a href="<?= base_url('user') ?>" class="nav-link <?php if ($this->uri->segment(1) == 'user') {
 
                               } ?>">
                          <i class="nav-icon fas fa-user"></i>
-                                 <p>Admin</p>
+                                 <p>
+                                    admin
+                                </p>
                              </a>
                          </li>
+                        
                          <li class="nav-item">
                              <a <a href="<?= base_url('pelanggan') ?>" class="nav-link <?php if ($this->uri->segment(1) == 'pelanggan') {} ?>">
                          <i class="nav-icon fas fa-user"></i>
-                                 <p>Pelanggan</p>
+                                 <p>
+                                    Pelanggan
+                                </p>
                              </a>
                          </li>
                      </ul>
                  </li>
+                 
                  <li class="nav-item">
                      <a href="<?= base_url('auth/logout_user') ?>" class="nav-link">
                          <i class="nav-icon fas fa-sign"></i>
