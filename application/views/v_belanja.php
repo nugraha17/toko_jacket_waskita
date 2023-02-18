@@ -6,9 +6,8 @@
                 <?php
 
                 if ($this->session->flashdata('pesan')) {
-                    echo '<div class="alert alert-success alert-dismissible">
-            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-            <h5><i class="icon fas fa-check"></i> ';
+                    echo '<div class="alert alert-success alert-dismissible"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                          <h5><i class="icon fas fa-check"></i> ';
                     echo $this->session->flashdata('pesan');
                     echo '</h5> </div>';
                 }
@@ -21,7 +20,7 @@
                 <table cellpadding="6" cellspacing="1" style="width:100%">
                 
                     <tr>
-                        <th width= "85px">Gambar</th>
+                        <th width="85px">Gambar</th>
                         <th width="85px">QTY</th>
                         <th width="85px">Ukuran</th>
                         <th>Nama Barang</th>
@@ -43,7 +42,8 @@
 
                         <tr>
                             <td>
-                            <div class="product-image-thumb active"><img src="<?= base_url('assets/gambar/' . $barang->gambar) ?>" alt="Product Image"></div>
+                                <div class="product-image-thumb active"><img src="<?= base_url('assets/gambar/' . $barang->gambar) ?>" alt="Product Image"></div>
+                            </td>
                             <td>
                                 <?php echo form_input(array(
                                     'name'      => $i . '[qty]',
@@ -55,7 +55,6 @@
                                     'class'     => 'form-control'
                                 )); ?>
                             </td>
-                           
                             <td>
                                 <?php echo $items['ukuran']  ?>
                             </td>
@@ -73,7 +72,7 @@
                         <?php $i++; ?>
 
                     <?php } ?>
-
+                <table>
                     <tr>
                         <td class="left">
                             <h4>Total : </h4>
@@ -81,9 +80,14 @@
                         <td class="left">
                             <h4> <?php echo $this->cart->format_number($this->cart->total()); ?></h4>
                         </td>
-                        <th>Total Berat: <?= $tot_berat ?> Gr</th>
                     </tr>
-
+                    <td class="left">
+                    <h4>Total Berat : </h4>
+                    </td>
+                    <td class="left">
+                        <h4> <?= $tot_berat ?></h4>
+                    </td>
+                </table>
                 </table>
 
                 <button type="submit" class="btn btn-primary btn-flat"><i class="fa fa-save"></i> Update Chart</button>
