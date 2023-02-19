@@ -72,21 +72,15 @@
                         <?php $i++; ?>
 
                     <?php } ?>
-                <table>
+                <table style="width:50%">
                     <tr>
-                        <td class="left">
-                            <h4>Total : </h4>
-                        </td>
-                        <td class="left">
-                            <h4> <?php echo $this->cart->format_number($this->cart->total()); ?></h4>
-                        </td>
+                        <td class="left"><h4 style="font-weight: bold">Total : </h4></td>
+                        <td class="left"><h4 style="font-weight: bold"> <?php echo $this->cart->format_number($this->cart->total()); ?></h4></td>
                     </tr>
-                    <td class="left">
-                    <h4>Total Berat : </h4>
-                    </td>
-                    <td class="left">
-                        <h4> <?= $tot_berat ?></h4>
-                    </td>
+                    <tr>
+                        <td class="left"><h4 style="font-weight: bold" >Total Berat : </h4></td>
+                        <td class="left"><h4 style="font-weight: bold"> <?= $tot_berat ?></h4></tsd>
+                    </tr>
                 </table>
                 </table>
 
