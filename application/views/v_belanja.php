@@ -79,7 +79,7 @@
                     </tr>
                     <tr>
                         <td class="left"><h4 style="font-weight: bold" >Total Berat : </h4></td>
-                        <td class="left"><h4 style="font-weight: bold"> <?= $tot_berat ?></h4></tsd>
+                        <td class="left"><h4 style="font-weight: bold"> <?= $tot_berat ?>Gr</h4></td>
                     </tr>
                 </table>
                 </table>
@@ -89,6 +89,7 @@
                 <a href="<?= base_url('belanja/cekout') ?>" class="btn btn-success btn-flat"><i class="fa fa-check"></i> Check Out</a>
 
                 <?php echo form_close() ?>
+                
                 <br>
             </div>
         </div>

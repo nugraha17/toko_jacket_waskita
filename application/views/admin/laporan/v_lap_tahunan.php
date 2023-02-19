@@ -20,6 +20,7 @@
                         <tr>
                             <th>No</th>
                             <th>Informasi</th>
+                            <th>Penerima</th>
                             <th>No Order</th>
                             <th>Tanggal</th>
                             <th>Total</th>
@@ -46,6 +47,13 @@
                                         <p>Ukuran : <?= $d['ukuran'] ?></p>
                                         <hr>
                                     <?php endforeach; ?>
+                                </td>
+                                <td>
+                                    Nama Penerima : <?= $value->nama_penerima ?><br>
+                                    Nomer Handphone : <?= $value->hp_penerima ?><br>
+                                    Alamat : <?= $value->alamat ?> <br>
+                                    Kota : <?= $value->kota ?> <br>
+                                    Provinsi : <?= $value->provinsi ?> <br>
                                 </td>
                                 <td><?= $value->no_order ?></td>
                                 <td><?= $value->tgl_order ?></td>

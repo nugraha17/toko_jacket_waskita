@@ -26,8 +26,6 @@
                             Rp. <?= number_format($barang->harga, 0) ?>
                         </h2>
                     </div>
-
-
                     <?php
                     echo form_open('belanja/add');
                     echo form_hidden('id', $barang->id_barang);
@@ -73,18 +71,17 @@
                         </div>
 						
                     </div>
-                    <?php echo form_close() ?>
-					<?php if($this->session->flashdata('success')): ?>
-						<div class="alert alert-primary">
-						<?= $this->session->flashdata('success') ?>
-						</div>
-					<?php endif; ?>
-
-					<?php if($this->session->flashdata('error')): ?>
-					<div class="alert alert-danger">
-						<?= $this->session->flashdata('error') ?>
+                        <?php echo form_close() ?>
+					    <?php if($this->session->flashdata('success')): ?>
+						    <div class="alert alert-primary">
+						    <?= $this->session->flashdata('success') ?>
+						    </div>
+					    <?php endif; ?>
+					    <?php if($this->session->flashdata('error')): ?>
+					    <div class="alert alert-danger">
+						    <?= $this->session->flashdata('error') ?>
 					</div>
-					<?php endif; ?>
+					    <?php endif; ?>
                 </div>
             </div>
         </div>
