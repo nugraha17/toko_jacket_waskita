@@ -41,7 +41,7 @@
                         <select name="tahun" class="form-control">
                             <?php
                             $mulai = date('Y') - 1;
-                            for ($i = $mulai; $i < $mulai + 7; $i++) {
+                            for ($i = $mulai; $i < $mulai + 9; $i++) {
                                 echo '<option value="' . $i . '">' . $i . '</option>';
                             }
                             ?>
@@ -88,7 +88,7 @@
                         <select name="tahun" class="form-control">
                             <?php
                             $mulai = date('Y') - 1;
-                            for ($i = $mulai; $i < $mulai + 7; $i++) {
+                            for ($i = $mulai; $i < $mulai + 9; $i++) {
                                 echo '<option value="' . $i . '">' . $i . '</option>';
                             }
                             ?>
@@ -124,7 +124,7 @@
                         <select name="tahun" class="form-control">
                             <?php
                             $mulai = date('Y') - 1;
-                            for ($i = $mulai; $i < $mulai + 7; $i++) {
+                            for ($i = $mulai; $i < $mulai + 9; $i++) {
                                 echo '<option value="' . $i . '">' . $i . '</option>';
                             }
                             ?>

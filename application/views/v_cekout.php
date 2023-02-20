@@ -1,4 +1,5 @@
 <!-- Main content -->
+<div style="margin-bottom:120px; ">
 <div class="invoice p-3 mb-3">
     <!-- title row -->
     <div class="row">
@@ -16,14 +17,14 @@
 
         </div>
         <!-- /.col -->
-        <div class="col-sm-4 invoice-col">
+        <div class="col-sm-4 invoice-col"  >
 
         </div>
     </div>
     <!-- /.row -->
 
     <!-- Table row -->
-    <div class="row">
+    <div class="row ">
         <div class="col-12 table-responsive">
             <table class="table table-striped">
                 <thead>
@@ -73,11 +74,11 @@
 
     ?>
 
-    <div class="row">
+    <div class="row" >
         <!-- accepted payments column -->
         <div class="col-sm-8 invoice-col">
             Tujuan
-            <div class="row">
+            <div class="row" >
                 <div class="col-sm-6">
                     <div class="form-group">
                         <label>Provinsi</label>
@@ -170,6 +171,7 @@
         </div>
     </div>
     <?php echo form_close() ?>
+</div>
 </div>
 
 <script>

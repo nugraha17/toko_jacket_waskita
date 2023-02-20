@@ -78,7 +78,7 @@
                      <ul class="nav nav-treeview">
                          <li class="nav-item">
                              <a <a href="<?= base_url('admin/setting') ?>" class="nav-link">
-                         <i class="nav-icon fas fa-user"></i>
+                             <i class="nav-icon fa fa-map-marker"></i>
                                  <p>
                                     Lokasi
                                 </p>
@@ -86,7 +86,7 @@
                          </li>
                          <li class="nav-item">
                              <a <a href="<?= base_url('rekening') ?>" class="nav-link">
-                         <i class="nav-icon fas fa-user"></i>
+                             <i class="nav-icon fa fa-credit-card"></i>
                                  <p>
                                     Rekening
                                 </p>
@@ -97,7 +97,7 @@
 
                  <li class="nav-item">
                      <a href="<?= base_url('user') ?>" class="nav-link <?php if ($this->uri->segment(1) == 'user') {echo "active";} ?>">
-                         <i class="nav-icon fas fa-user"></i>
+                         <i class="nav-icon fas fa-user-plus"></i>
                          <p>
                              User
                          </p>

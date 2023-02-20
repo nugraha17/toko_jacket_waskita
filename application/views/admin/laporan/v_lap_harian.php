@@ -18,6 +18,7 @@
                     <thead>
                         <tr>
                             <th>No</th>
+                            <th>Informasi Penerima</th>
                             <th>No Order</th>
                             <th>Barang</th>
                             <th>Harga</th>
@@ -36,6 +37,13 @@
                         ?>
                             <tr>
                                 <td><?= $no++ ?></td>
+                                <td>
+                                    Nama Penerima : <?= $value->nama_penerima ?><br>
+                                    Nomer Handphone : <?= $value->hp_penerima ?><br>
+                                    Alamat : <?= $value->alamat ?> <br>
+                                    Kota : <?= $value->kota ?> <br>
+                                    Provinsi : <?= $value->provinsi ?> <br>
+                                </td>
                                 <td><?= $value->no_order ?></td>
                                 <td><?= $value->nama_barang ?></td>
                                 <td>Rp. <?= number_format($value->harga, 0) ?></td>
@@ -45,7 +53,7 @@
                         <?php } ?>
                     </tbody>
                 </table>
-                <h1>Grand Total = Rp. <?= number_format($grand_total, 0) ?></h1>
+                <h1> <strong>Grand Total = Rp. <?= number_format($grand_total, 0) ?></strong> </h1>
             </div>
             <!-- /.col -->
         </div>

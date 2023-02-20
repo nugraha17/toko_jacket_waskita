@@ -51,12 +51,12 @@
                             <button type="submit" class="btn btn-primary btn-block">Login</button>
                         </div>
                         
-<!-- 
-                    <div style="margin-top:30px;" class='col text-right' >
 
-                            <a href="<?= base_url('auth/login_user')?>">Login Admin</a>
-                    </div> -->
-                    <?php echo form_close() ?>
+                    <!-- <div style="margin-top:30px;" class='col text-right' >
+
+                            <a href="<?= base_url('auth/login_user')?>">Login Admin</a>             
+                        </div>
+                    <?php echo form_close() ?> -->
                     
                 </div>
                 <!-- /.form-box -->

@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-12">
                 <h4>
-                    <i class="fas fa-globe"></i> AdminLTE, Inc.
+                    <i class="fas fa-globe">Laporan Penjualan Bulanan</i> 
                     <small class="float-right">Tahun: <?= $tahun ?></small>
                 </h4>
             </div>
@@ -63,7 +63,7 @@
 
                     </tbody>
                 </table>
-                <h1>Grand Total = Rp. <?= number_format($grand_total, 0) ?> </h1>
+                <h1> <strong>Grand Total = Rp. <?= number_format($grand_total, 0) ?></strong> </h1>
             </div>
             <!-- /.col -->
         </div>

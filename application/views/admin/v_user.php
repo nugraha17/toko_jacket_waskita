@@ -4,7 +4,7 @@
             <h3 class="card-title">Data Admin</h3>
 
             <div class="card-tools">
-                <button class="btn btn-default" data-toggle="modal" data-target="#add" type="button" class="btn btn-primary btn-xs"><i class="fas fa-plus"></i>
+                <button class="btn btn-default" data-toggle="modal" data-target="#add" type="button" class="btn btn-primary btn-xs"><i class="fas fa-user-plus"></i>
                     add</button>
             </div>
             <!-- /.card-tools -->

@@ -1,6 +1,4 @@
 <div class="row"  style=" margin-bottom:580px; ">
-
-
     <div class="col-sm-12">
         <?php
 
@@ -235,7 +233,6 @@
             <!-- /.card -->
         </div>
     </div>
-
 
 </div>
 

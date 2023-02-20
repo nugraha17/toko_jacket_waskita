@@ -213,6 +213,7 @@
                             <th>No order</th>
                             <th>Tanggal</th>
                             <th>Expedisi</th>
+                            <th>Informasi Penerima</th>
                             <th>Total Bayar</th>
                             <th>No Resi</th>
                         </tr>
@@ -239,6 +240,13 @@
                                     <b><?= $value->expedisi ?></b><br>
                                     Paket : <?= $value->paket ?><br>
                                     Ongkir : Rp. <?= number_format($value->ongkir, 0) ?>
+                                </td>
+                                <td>
+                                    Nama Penerima : <?= $value->nama_penerima ?><br>
+                                    Nomer Handphone : <?= $value->hp_penerima ?><br>
+                                    Alamat : <?= $value->alamat ?> <br>
+                                    Kota : <?= $value->kota ?> <br>
+                                    Provinsi : <?= $value->provinsi ?> <br>
                                 </td>
                                 <td>
                                     <b>Rp<?= number_format($value->total_bayar, 0) ?></b><br>
