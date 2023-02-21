@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-12">
                 <h4>
-                    <i class="fas fa-globe"></i> AdminLTE, Inc.
+                    <i class="fas fa-globe">Laporan Penjualan Tahunan</i> 
                     <small class="float-right">Tahun: <?= $tahun ?></small>
                 </h4>
             </div>

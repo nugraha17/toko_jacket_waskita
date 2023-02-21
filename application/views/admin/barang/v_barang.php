@@ -25,12 +25,12 @@
 
             <table class="table table-bordered" id="example1">
                 <thead>
-                    <tr class="text-center sticky-top bg-blue">
+                    <tr class="text-center sticky-top bg-gray">
                         <th class="text-center">No</th>
                         <th class="text-center">Nama Barang</th>
-                        <th class="text-center">harga</th>
+                        <th class="text-center">Harga</th>
                         <th class="text-center">Stok Barang</th>
-                        <th class="text-center">gambar</th>
+                        <th class="text-center">Gambar Prodak</th>
                         <th class="text-center">Action</th>
                     </tr>
                 </thead>

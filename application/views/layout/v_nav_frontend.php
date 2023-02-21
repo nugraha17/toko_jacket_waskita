@@ -153,7 +153,6 @@
      <div class="content">
          <div class="container">
 
-<!-- 
 
 <style>
 
@@ -166,4 +165,4 @@
     width: 100%;
     z-index: 1;
 }
-</style>          -->
+</style>        

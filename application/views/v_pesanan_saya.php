@@ -95,7 +95,6 @@
                                 <th>Tanggal</th>
                                 <th>Expedisi</th>
                                 <th>Total Bayar</th>
-                                <th>Action</th>
                             </tr>
                             <?php foreach ($diproses as $key => $value) { ?>
                                 <tr>

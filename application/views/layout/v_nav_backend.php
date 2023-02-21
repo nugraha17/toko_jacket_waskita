@@ -77,7 +77,7 @@
                      </a>
                      <ul class="nav nav-treeview">
                          <li class="nav-item">
-                             <a <a href="<?= base_url('admin/setting') ?>" class="nav-link">
+                             <a href="<?= base_url('admin/setting') ?>" class="nav-link">
                              <i class="nav-icon fa fa-map-marker"></i>
                                  <p>
                                     Lokasi
@@ -85,7 +85,7 @@
                              </a>
                          </li>
                          <li class="nav-item">
-                             <a <a href="<?= base_url('rekening') ?>" class="nav-link">
+                             <a href="<?= base_url('rekening') ?>" class="nav-link">
                              <i class="nav-icon fa fa-credit-card"></i>
                                  <p>
                                     Rekening
@@ -105,7 +105,7 @@
                      
                      <ul class="nav nav-treeview">
                          <li class="nav-item">
-                             <a <a href="<?= base_url('user') ?>" class="nav-link <?php if ($this->uri->segment(1) == 'user') {
+                             <a href="<?= base_url('user') ?>" class="nav-link <?php if ($this->uri->segment(1) == 'user') {
 
                               } ?>">
                          <i class="nav-icon fas fa-user"></i>
@@ -116,7 +116,7 @@
                          </li>
                         
                          <li class="nav-item">
-                             <a <a href="<?= base_url('pelanggan') ?>" class="nav-link <?php if ($this->uri->segment(1) == 'pelanggan') {} ?>">
+                             <a href="<?= base_url('pelanggan') ?>" class="nav-link <?php if ($this->uri->segment(1) == 'pelanggan') {} ?>">
                          <i class="nav-icon fas fa-user"></i>
                                  <p>
                                     Pelanggan
