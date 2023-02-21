@@ -14,7 +14,7 @@
 
         <!-- Table row -->
         <div class="row">
-            <div class="col-12 table-responsive">
+            <div class="col-12 table-responsive ">
                 <table class="table table-striped">
                     <thead>
                         <tr>
@@ -23,7 +23,8 @@
                             <th>Penerima</th>
                             <th>No Order</th>
                             <th>Tanggal</th>
-                            <th>Total</th>
+                            <th>Haraga Barang</th>
+                            <th>Total Bayar</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -58,6 +59,7 @@
                                 <td><?= $value->no_order ?></td>
                                 <td><?= $value->tgl_order ?></td>
                                 <td>Rp. <?= number_format($value->grand_total, 0) ?></td>
+                                <td><b>Rp.<?= number_format($value->total_bayar, 0) ?></b></td>
                             </tr>
                         <?php } ?>
 
@@ -72,7 +74,7 @@
         <!-- this row will not appear when printing -->
         <div class="row no-print">
             <div class="col-12">
-                <button class="btn btn-default" onclick="window.print()"><i class="fas fa-print"></i> Print</button>
+                <button class="btn btn-default" onclick="window.print()"><i class="fas fa-print"></i> Cetak</button>
             </div>
         </div>
     </div>

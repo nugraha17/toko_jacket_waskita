@@ -25,7 +25,7 @@
 
             <table class="table table-bordered" id="example1">
                 <thead>
-                    <tr class="text-center">
+                    <tr class="text-center sticky-top bg-blue">
                         <th class="text-center">No</th>
                         <th class="text-center">Nama Barang</th>
                         <th class="text-center">harga</th>

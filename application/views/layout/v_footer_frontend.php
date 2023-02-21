@@ -4,7 +4,7 @@
 <!-- Main Footer -->
 <footer class="main-footer">
   <!-- To the right -->
-  <div class="container">
+  <div class="container ">
         <div class="row">
               <div class="col-sm-6">
                     <div class="footer-about">

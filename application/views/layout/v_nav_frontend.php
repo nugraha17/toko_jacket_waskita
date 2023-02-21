@@ -1,9 +1,13 @@
  <!-- Navbar -->
- <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
+ 
+
+ <nav class="main-header navbar navbar-expand-md navbar-light navbar-white sticky-top">
+    
      <div class="container">
          <a href="<?= base_url() ?>" class="navbar-brand">
              <i class="fas fa-store"></i></i>
              <span class="brand-text font-weight-light"><b>Konkrite Market</b></span>
+             
          </a>
 
          <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -148,3 +152,18 @@
      <!-- Main content -->
      <div class="content">
          <div class="container">
+
+<!-- 
+
+<style>
+
+{
+    list-style-type: none;
+    /* background-color: chocolate; */
+    overflow: hidden;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+</style>          -->

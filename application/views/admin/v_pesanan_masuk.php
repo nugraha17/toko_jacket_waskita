@@ -38,6 +38,7 @@
                             <th>Expedisi</th>
                             <th>Informasi Penerima</th>
                             <th>Total Bayar</th>
+                            <th>Action</th>
                         </tr>
                         <?php foreach ($pesanan as $key => $value) { ?>
                             <tr>
