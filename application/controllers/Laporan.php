@@ -58,7 +58,7 @@ class Laporan extends CI_Controller
         $tahun = $this->input->post('tahun');
 
         $data = array(
-            'title' => 'Laporan Penjualan Bulanan',
+            'title' => 'Laporan Penjualan Tahunan',
             'pesanan_masuk_notif' => $this->m_admin->pesanan_masuk_notif(),
             'tahun' => $tahun,
             'laporan' => $this->m_laporan->lap_tahunan($tahun),

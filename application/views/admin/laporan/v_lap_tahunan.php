@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-12">
                 <h4>
-                    <i class="fas fa-globe">Laporan Penjualan Bulanan</i> 
+                    <i class="fas fa-globe"></i> AdminLTE, Inc.
                     <small class="float-right">Tahun: <?= $tahun ?></small>
                 </h4>
             </div>
@@ -22,6 +22,7 @@
                             <th>Informasi</th>
                             <th>Penerima</th>
                             <th>No Order</th>
+                            <th>Expedisi</th>
                             <th>Tanggal</th>
                             <th>Haraga Barang</th>
                             <th>Total Bayar</th>
@@ -57,6 +58,11 @@
                                     Provinsi : <?= $value->provinsi ?> <br>
                                 </td>
                                 <td><?= $value->no_order ?></td>
+                                <td>
+                                    <b><?= $value->expedisi ?></b><br>
+                                    Paket : <?= $value->paket ?><br>
+                                    Ongkir : Rp. <?= number_format($value->ongkir, 0) ?>
+                                </td>
                                 <td><?= $value->tgl_order ?></td>
                                 <td>Rp. <?= number_format($value->grand_total, 0) ?></td>
                                 <td><b>Rp.<?= number_format($value->total_bayar, 0) ?></b></td>
