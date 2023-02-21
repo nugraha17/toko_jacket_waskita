@@ -37,6 +37,7 @@ class Home extends CI_Controller
         );
         $this->load->view('layout/v_wrapper_frontend',$data, FALSE);
     }
+    
     public function detail_barang($id_barang)
     {
         
