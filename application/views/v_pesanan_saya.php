@@ -1,4 +1,4 @@
-<div class="row"  style=" margin-bottom:580px; ">
+<div class="row "  style=" margin-bottom:580px; ">
     <div class="col-sm-12">
         <?php
 
@@ -30,7 +30,7 @@
             </div>
 
             <!-- order -->
-            <div class="card-body">
+            <div class="card-body table-responsive">
                 <div class="tab-content" id="custom-tabs-four-tabContent">
                     <div class="tab-pane fade show active" id="custom-tabs-four-home" role="tabpanel" aria-labelledby="custom-tabs-four-home-tab">
                         <table class="table">
@@ -88,7 +88,7 @@
 
                     <!-- proses -->
                     <div class="tab-pane fade" id="custom-tabs-four-profile" role="tabpanel" aria-labelledby="custom-tabs-four-profile-tab">
-                        <table class="table">
+                        <table class="table" >
                             <tr>
                                 <th>Informasi</th>
                                 <th>No order</th>
@@ -222,7 +222,6 @@
                                     <td>
                                         <h4><?= $value->no_resi ?></h4>
                                     </td>
-
                                 </tr>
                             <?php } ?>
                         </table>
@@ -248,7 +247,6 @@
                 </div>
                 <div class="modal-body">
                     Apakah Anda Yakin Pesanan Sudah Diterima...?
-
                 </div>
                 <div class="modal-footer justify-content-between">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Tidak</button>

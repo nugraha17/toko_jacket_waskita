@@ -14,7 +14,7 @@
 
                 ?>
             </div>
-            <div class="col-sm-12">
+            <div class="col-sm-12 table-responsive">
                 <?php echo form_open('belanja/update'); ?>
 
                 <table cellpadding="6" cellspacing="1" style="width:100%">
@@ -83,10 +83,11 @@
                     </tr>
                 </table>
                 </table>
-
-                <button type="submit" class="btn btn-primary btn-flat"><i class="fa fa-save"></i> Update Chart</button>
-                <a href="<?= base_url('belanja/clear') ?>" class="btn btn-danger btn-flat"><i class="fa fa-recycle"></i> Clear Cart</a>
-                <a href="<?= base_url('belanja/cekout') ?>" class="btn btn-success btn-flat"><i class="fa fa-check"></i> Check Out</a>
+                <div class="col-sm-12 table-responsive">
+                    <button type="submit" class="btn btn-primary btn-flat"><i class="fa fa-save"></i> Update Chart</button>
+                    <a href="<?= base_url('belanja/clear') ?>" class="btn btn-danger btn-flat"><i class="fa fa-recycle"></i> Clear Cart</a>
+                    <a href="<?= base_url('belanja/cekout') ?>" class="btn btn-success btn-flat"><i class="fa fa-check"></i> Check Out</a>
+                </div>
 
                 <?php echo form_close() ?>
                 

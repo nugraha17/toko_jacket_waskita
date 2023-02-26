@@ -34,14 +34,14 @@
                     echo form_hidden('redirect_page', str_replace('index.php,', '', current_url()));
                     ?>
 
-                    <div class="mt-4">
+                    <div class="mt-4 ">
                         <div class="row">
                             <h6>Qty : </h6>
                             <div class="col-sm-2">
                                 <input type="number" name="qty" class="form-control" value="1" min="1">
                             </div>
                             <h6>Pilih Ukuran : </h6>
-                            <div class="col-sm-2">
+                            <div class="col-sm-2 ">
                                 <select name="ukuran" class="form-control">
                                 <?php if ($barang->stok_s > 0): ?>
                                     <option value="S">S</option>
@@ -66,7 +66,7 @@
                             <br>
                             <br>
                             <div>
-                                <h4 class="badge badge-warning">Stok Size S : <?= $barang->stok_s ?> | Stok Size M : <?= $barang->stok_m ?> | Stok Size L : <?= $barang->stok_l ?> | Stok Size XL : <?= $barang->stok_xl ?></h4>
+                                <h4 class="badge badge-warning ">Stok Size S : <?= $barang->stok_s ?> | Stok Size M : <?= $barang->stok_m ?> | Stok Size L : <?= $barang->stok_l ?> | Stok Size XL : <?= $barang->stok_xl ?></h4>
                             </div><br />
                         </div>
 						

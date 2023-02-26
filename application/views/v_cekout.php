@@ -12,15 +12,7 @@
         <!-- /.col -->
     </div>
     <!-- info row -->
-    <div class="row invoice-info">
-        <div class="col-sm-4 invoice-col">
 
-        </div>
-        <!-- /.col -->
-        <div class="col-sm-4 invoice-col"  >
-
-        </div>
-    </div>
     <!-- /.row -->
 
     <!-- Table row -->
@@ -74,10 +66,32 @@
 
     ?>
 
+<div class="col-12 table-responsive">
+    <div class="table-responsive">
+        <table class="table table table-striped">
+            <tr>
+                <th style="width:50%">Grand Total:</th>
+                <th><?php echo $this->cart->format_number($this->cart->total()); ?></th>
+            </tr>
+            <tr>
+                <th>Berat</th>
+                <th><?= $tot_berat ?> Gr</th>
+            </tr>
+            <tr>
+                <th>Ongkir:</th>
+                <th><label id="ongkir"></label></th>
+            </tr>
+            <tr>
+                <th>Total Bayar:</th>
+                <th><label id="total_bayar"></label></th>
+            </tr>
+        </table>
+    </div>
+</div>
     <div class="row" >
         <!-- accepted payments column -->
-        <div class="col-sm-8 invoice-col">
-            Tujuan
+        <div class="col-sm-12 invoice-col">
+            <strong>TUJUAN</strong>
             <div class="row" >
                 <div class="col-sm-6">
                     <div class="form-group">
@@ -116,29 +130,6 @@
             </div>
         </div>
         <!-- /.col -->
-        <div class="col-4 ">
-
-            <div class="table-responsive">
-                <table class="table">
-                    <tr>
-                        <th style="width:50%">Grand Total:</th>
-                        <th><?php echo $this->cart->format_number($this->cart->total()); ?></th>
-                    </tr>
-                    <tr>
-                        <th>Berat</th>
-                        <th><?= $tot_berat ?> Gr</th>
-                    </tr>
-                    <tr>
-                        <th>Ongkir:</th>
-                        <th><label id="ongkir"></label></th>
-                    </tr>
-                    <tr>
-                        <th>Total Bayar:</th>
-                        <th><label id="total_bayar"></label></th>
-                    </tr>
-                </table>
-            </div>
-        </div>
         <!-- /.col -->
     </div>
     <!-- /.row -->
