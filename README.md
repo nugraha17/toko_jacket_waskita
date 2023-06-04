@@ -4,3 +4,4 @@ welcame ,hello
 halo halo
 sekarang hari sabtu
 haloo
+sekarang hari minggu
